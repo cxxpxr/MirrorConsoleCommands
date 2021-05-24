@@ -4,6 +4,9 @@ A simple console command addon for Mirror.
 # What
 This is an addon for mirror that allows commands to be entered into the console.
 
+# Limitations
+This currently only works for Windows server builds!
+
 # How to use
 1. Install the latest release into your project.
 2. Add ServerConsole.cs to your NetworkManager.
