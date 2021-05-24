@@ -64,6 +64,10 @@ public class CommandModule
                 Debug.LogError("CONSOLE COMMANDS | Command execution failed!");
             }
         }
+        else
+        {
+            Debug.LogError("CONSOLE COMMANDS | Unknown command!");
+        }
     }
 }
 
