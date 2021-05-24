@@ -13,7 +13,7 @@ public class ServerConsole : MonoBehaviour
 
 	CommandModule commandModule = new CommandModule();
 
-    void Update() => input.Update();
+        void Update() => input.Update();
 	void OnDestroy() => console.Shutdown();
 
 	void Awake()
