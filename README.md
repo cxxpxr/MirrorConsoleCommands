@@ -1,4 +1,4 @@
-# MirrorConsoleCommands
+# <img src="/MirrorConsoleCommands/Icon/ConsoleCommandsIcon.png" width="50" /> MirrorConsoleCommands
 A simple console command addon for Mirror.
 
 # What
