@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Linq;
+using UnityEngine;
 
 /// <summary>
 /// Attach this to your network manager. Handles commands.
@@ -13,7 +15,7 @@ public class ServerConsole : MonoBehaviour
 
 	CommandModule commandModule = new CommandModule();
 
-        void Update() => input.Update();
+    void Update() => input.Update();
 	void OnDestroy() => console.Shutdown();
 
 	void Awake()
